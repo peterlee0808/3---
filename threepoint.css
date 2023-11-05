@@ -240,6 +240,10 @@ header {
   max-width: 100%;
 }
 
+.berries:hover {
+  cursor: pointer;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -364,6 +368,7 @@ header {
   gap: 50px;
   padding: 20px 0;
 }
+
 .ingredient-contianer a {
   text-decoration: none;
   font-size: 12px;
@@ -371,12 +376,23 @@ header {
   background-color: #000000;
   padding: 14px 30px;
 }
+
+.ingredient-contianer a:hover {
+  text-decoration: none;
+  font-size: 12px;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 14px 30px;
+  border: 1px solid black;
+}
+
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
 }
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -406,8 +422,24 @@ footer {
   padding-top: 40px;
   padding-bottom: 10px;
   gap: 10px;
+  color: #000000;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
+}
+
+.fa-brands.fa-facebook-f,
+.fa-regular.fa-envelope,
+.fa-brands.fa-youtube,
+.fa-brands.fa-instagram {
+  color: #000000;
+}
+
+.fa-brands.fa-facebook-f:hover,
+.fa-regular.fa-envelope:hover,
+.fa-brands.fa-youtube:hover,
+.fa-brands.fa-instagram:hover {
+  cursor: pointer;
+  color: #6e6161;
 }
 
 .fa-brands,
@@ -463,6 +495,11 @@ footer {
   font-weight: 500;
 }
 
+.tel a:hover {
+  color: #6e6161;
+  font-weight: 500;
+}
+
 .email-container {
   display: flex;
   flex-direction: column;
@@ -512,6 +549,13 @@ footer {
   color: #000000;
 }
 
+.headquarter-content a:hover {
+  display: inline;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24.5px;
+  color: #6e6161;
+}
 .copyright {
   /* padding: 0 20px; */
   padding-top: 10px;
@@ -679,8 +723,17 @@ footer {
   .logo {
     width: 150px;
   }
+  .logo:hover {
+    cursor: pointer;
+    color: #fefdfd;
+  }
+
   .navigation {
     max-width: 800px;
+  }
+
+  .navigation a:hover {
+    color: #c6c6c6;
   }
   nav ul {
     display: flex;
